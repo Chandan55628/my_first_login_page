@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai News</title>
+</head>
+<style>
+    h2{
+        text-align: center;
+    }
+    h2 > span{
+        color:red;
+    }
+    #parent{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        
+
+
+    }
+    #parent > .child{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* border:2px solid green; */
+        height:50px;
+        width:10%;
+        height:90px;
+        padding:3%;
+        margin-top:4%;
+        margin-right:4%;
+        margin-left:4%;
+        border-radius:14px;
+        background-color:rgb(220, 220, 229);
+    }
+    #parent > .child > div {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(224, 34, 34);
+        color:white;
+        font-size: 50px;
+        /* width:80%; */
+        height:60px;
+        padding:4%;
+        border-radius: 3px;
+    
+
+
+        
+    }
+    #parent > .child > div > p > span{
+        font-size: 50px;
+        font-weight: bolder;
+        height:70px;
+
+    }
+    #parent > .child > .bw{
+        background-color: white;
+        background-color: rgb(220, 220, 229);
+                
+    }
+    #parent > .child > .bw p{
+        color:red;
+        font-size: 25px;
+        
+    }
+    #parent > .child > .bw > p >span{
+        font-size: 25px;
+        margin:3px;
+        color:rgb(17, 132, 178);
+    }
+
+    #parent2{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        margin:auto;
+        
+        width:77%;
+        
+        
+        
+    }
+    #parent2 > .para{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+        width:21%;
+        /* border:2px solid black; */
+        
+    
+    }
+    #parent2 > .para p{
+        font-weight: bolder;
+    }
+    
+
+
+    
+</style>
+<body>
+    <h2>Masai in <span>News</span> </h2>
+    <div id="parent">
+        
+        <div class="child">
+            <div>
+                <p>THE<span>WEEK</span></p>
+            </div>
+           
+           
+        
+        </div>
+       
+        <div class="child">
+            <div class="bw">
+            <p>BW<span>BUSINESSWORLD</span></p>
+            </div>
+        </div>
+        <div class="child">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/2/23/20210717192507%21CNBC_TV18_logo.png/120px-CNBC_TV18_logo.png">
+        </div>
+    
+        
+    </div>
+    <div id="parent2">
+        <div class="para">
+            <p>Masai sees 300% Increase in Student Placement Amid Market Jitters</p>
+        </div>
+        <div class="para">
+            <p>Masai sees 300% Increase in Student Placement Amid Market Jitters</p>
+        </div>
+        <div class="para">
+            <p>Masai sees 300% Increase in Student Placement Amid Market Jitters</p>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
